@@ -49,6 +49,8 @@ function Meta(meta)
         end
         meta['main_findings'] = flat_findings
     end
+    meta['output']  = "posterdown::posterdown_betterland"
+
     return meta
 end
 
